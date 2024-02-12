@@ -1,0 +1,99 @@
+body, html {
+    margin: 0;
+    background-color: #f1faee;
+    user-select: none;
+}
+#container {
+    margin: 0 auto;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+#logo-img {
+    margin-top: 10px;
+}
+#restaurant-title {
+    text-align: center;
+    margin-top: -10px;
+}
+#restaurant-description {
+    margin-top: 0;
+    text-align: center;
+}
+#table-title {
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+#table-list {
+    border: 2px solid #1d3557;
+    border-radius: 5px;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+#table-list li {
+    padding: 12px 15px;
+    background-color: #540b0e;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #1d3557;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#table-list li:hover {
+    background-color: #9e2a2b;
+}
+#selection-title {
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+#selection-list {
+    display: flex;
+    flex-direction: column;
+}
+.food {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #1d3557;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin-top: 10px;
+}
+.food img{
+    border-radius: 20px;
+    box-shadow: 0 0 2px black;
+}
+.food-info {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+}
+.food-info h3 {
+    font-size: 20px;
+    margin: 5px auto;
+    text-align: center;
+}
+.food-info p {
+    height: 60px;
+    font-size: 15px;
+    margin: 5px 15px;
+    text-align: right;
+}
+.food-info button {
+    margin: 18px 30px 5px 30px;
+    padding: 5px 0;
+    text-align: center;
+    font-weight: bold;
+    background-color: #bde0fe;
+    border: 2px solid #a2d2ff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.food-info button:hover {
+    border-color: #bde0fe;
+    background-color: #a8dadc;
+}
